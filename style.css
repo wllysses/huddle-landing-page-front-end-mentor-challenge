@@ -15,6 +15,7 @@ body {
     background-color: hsl(257, 40%, 49%);
     background-image: url('images/bg-desktop.svg');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cabecalho h1 img {
@@ -44,7 +45,7 @@ body {
 
 .main-container .text p {
     font-size: 1.6rem;
-    /* max-width: 500px; */
+    max-width: 600px;
     margin: 30px 30px 20px;
     text-align: justify;
     line-height: 25px;
@@ -123,32 +124,17 @@ body {
     .main-container .text h2 {
         font-size: 2rem;
         line-height: 35px;
-        max-width: 400px;
-        margin: 35px;
     }
 
     .main-container .text p {
         font-size: 1.6rem;
-        /* max-width: 500px; */
-        margin: 30px 30px 20px;
         text-align: center;
-        line-height: 25px;
         font-weight: 500;
     }
 
     .main-container .text button {
-        background-color: white;
-        border: none;
-        outline: none;
-        padding: 15px 80px;
-        border-radius: 50px;
-        font-size: 1.4rem;
+        padding: 10px 80px;
         font-weight: 500;
-        color: hsl(257, 40%, 49%);
-        cursor: pointer;
-        transition: 0.3s;
-        margin: 10px auto 30px;
-        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.411);
     }
 
     .rodape {
@@ -158,13 +144,6 @@ body {
     }
 
     .rodape .social a i {
-        font-size: 2.2rem;
-        color: white;
-        margin-left: 10px;
-        transition: 0.3s;
-    }
-
-    .rodape .social a i:hover {
-        color: hsl(300, 69%, 71%);
+        font-size: 2.5rem;
     }
 }
