@@ -18,7 +18,7 @@ body {
 }
 
 .cabecalho h1 img {
-    margin: 50px 20px 20px;
+    margin: 20px 20px 20px;
     width: 200px;
 }
 
@@ -77,7 +77,7 @@ body {
 }
 
 .rodape .social {
-    margin: 15px 60px 0;
+    margin: 20px 60px 20px;
 }
 
 .rodape .social a i {
@@ -89,6 +89,23 @@ body {
 
 .rodape .social a i:hover {
     color: hsl(300, 69%, 71%);
+}
+
+@media (max-width: 960px) {
+
+    body {
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .main-container {
+        display: block;
+        text-align: center;
+    }
+
+    .main-container .image img {
+        width: 80%;
+    }
 }
 
 @media (max-width: 425px) {
