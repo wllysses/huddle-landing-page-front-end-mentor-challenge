@@ -94,22 +94,25 @@ body {
 
 @media (max-width: 960px) {
 
-    body {
-        background-position: center center;
-        background-size: cover;
-    }
-
     .main-container {
         display: block;
         text-align: center;
     }
 
     .main-container .image img {
-        width: 80%;
+        width: 75%;
+    }
+
+    .main-container .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
 @media (max-width: 425px) {
+
     .main-container {
         display: flex;
         flex-direction: column;
