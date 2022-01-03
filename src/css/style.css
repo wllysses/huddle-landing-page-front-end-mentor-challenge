@@ -28,6 +28,7 @@ body {
 .main-container {
     display: flex;
     margin: 0 auto 0;
+    max-width: 1440px;
 }
 
 .main-container .image img {
